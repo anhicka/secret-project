@@ -4,6 +4,41 @@ body {
     background-size: cover;
 }
 
-.placeholder {
-    height: 100vh;
+.body-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head-img {
+    animation: glow 30s ease-in-out;
+    margin: 0;
+}
+
+.shoulders-img {
+    animation: glow 30s ease-in-out;
+    animation-delay: 30s;
+    margin: 0;
+}
+
+.feet-img {
+    animation: glow 30s ease-in-out;
+    animation-delay: 60s;
+    margin: 0;
+}
+
+@keyframes glow {
+    15% {
+        filter: drop-shadow(0 -5px 30px #5266f9);
+    }
+    50% {
+        filter: drop-shadow(0 -5px 30px #5266f9);
+    }
+    55% {
+        filter: drop-shadow(0 -5px 30px #8f45ff);
+    }
+    90% {
+        filter: drop-shadow(0 -5px 30px #8f45ff);
+    }
 }
