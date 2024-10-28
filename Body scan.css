@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background: linear-gradient(#EDF2FB, #FFF8EC);
+    background-size: cover;
+}
+
+.placeholder {
+    height: 100vh;
+}
