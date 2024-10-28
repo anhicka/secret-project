@@ -1,0 +1,15 @@
+.hero{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background:#e2eafc;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+}
