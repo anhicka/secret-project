@@ -1,15 +1,95 @@
-.hero{
+
+     
+
+    .hero{
     display: flex;
-    width: 800px;
+    width: 725px;
     height: 400px;
     background:#e2eafc;
     align-items: center;
     justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    border-radius: 10px;
+    padding-left: 150px;
+    padding-right: 105px;
+    border-radius: 35px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
+    box-shadow: 4px 4px 4px #BDCAE7;
+    text-size-adjust: 100%;
 
+}
+
+.secondbox{
+    display: block;
+    width: 725px;
+    height: 200px;
+    background-color: #FFE3BB;
+    margin: 75px auto;
+    padding-left: 150px;
+    padding-right: 105px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #FFE3BB
+}
+
+img{ 
+    height: 400px;
+    width: 400px;
+    align-self: flex-end;
+    padding-left: 175px;
+}
+
+
+h1{
+    font-size: 70px
+}
+
+.benefitstext{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.benefitsparagraph{
+    text-align: center;
+    padding-right: 50px;
+}
+
+
+
+
+.instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    text-align: center;
+    margin: 75px;
+    width: auto;
+    height:auto;
+}
+
+.steps {
+    width: 200px;
+    min-height: 200px;
+    padding: 40px;
+    background-color: #E2EAFC;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #BDCAE7;
+}
+
+.videobox{
+    display: block;
+    width: 725px;
+    height: 400px;
+    background-color: #FFE3BB;
+    margin: 75px auto;
+    padding-left: 150px;
+    padding-right: 105px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #FFE3BB
+
+}
+
+
+.videoplayer{
+    
 }
