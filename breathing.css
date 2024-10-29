@@ -1,0 +1,26 @@
+/* Basic reset for body */
+body {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height: 50vh;
+  margin: 0;
+  background-color: #F5F5F5;
+}
+/* Circle styles */
+.circle {
+  width: 250px;
+  height:250px;
+  background-color: #FFE3BB;
+  border-radius: 50%;
+  animation: scale 10s ease-in-out infinite;
+}
+/* Animation */
+@keyframes scale {
+  100% {
+    transform:scale(1);
+  }
+  50% {
+    transform:scale(1.12);
+  }
+}
