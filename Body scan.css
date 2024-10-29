@@ -2,38 +2,91 @@ body {
     margin: 0;
     background: linear-gradient(#EDF2FB, #FFF8EC);
     background-size: cover;
+    font: #010419;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.body-img {
+h2 {
+    margin-bottom: 22px;
+}
+
+.benefits {
+    background-color: #B4BDFF;
+    max-width: 850px;
+    margin: 75px auto;
+    padding: 60px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #A9B2F0;
+}
+
+.instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    text-align: center;
+    margin: 75px;
+    width: auto;
+    height:auto;
+}
+
+.steps {
+    width: 200px;
+    min-height: 200px;
+    padding: 40px;
+    background-color: #E2EAFC;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #BDCAE7;
+}
+
+.upper-body-img {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.middle-body-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-body-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .head-img {
     animation: glow 30s ease-in-out;
-    margin: 0;
+    margin-top: 30px
 }
 
 .shoulders-img {
     animation: glow 30s ease-in-out;
     animation-delay: 30s;
-    margin: 0;
+}
+
+.hand-img {
+    animation: glow 30s ease-in-out;
+    animation-delay: 60s
 }
 
 .feet-img {
     animation: glow 30s ease-in-out;
-    animation-delay: 60s;
-    margin: 0;
+    animation-delay: 90s;
+    margin-bottom: 115px;
 }
 
 @keyframes glow {
     15% {
-        filter: drop-shadow(0 -5px 30px #5266f9);
+        filter: drop-shadow(0 -5px 30px #4558ee);
     }
     50% {
-        filter: drop-shadow(0 -5px 30px #5266f9);
+        filter: drop-shadow(0 -5px 30px #4558ee);
     }
     55% {
         filter: drop-shadow(0 -5px 30px #8f45ff);
