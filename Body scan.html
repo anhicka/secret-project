@@ -9,10 +9,19 @@
 </head>
 
 <body>
-<div class="benefits">
-    <h2>Benefits</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-</div>
+    <div id="hero">
+        <div class="hero-txt">
+            <h1>Body Scan</h1>
+            <h3 class="subheading">Short CTA and how it can help the user and what not.</h3>
+        </div>
+        <div class="hero-img">
+            <img src="./images/body-scan.webp" class="hero-img">
+        </div>
+    </div>
+    <div class="benefits">
+        <h2>Benefits</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
 
     <div class="instructions">
         <div class="steps">
@@ -26,6 +35,7 @@
         <div class="steps">
             <h2>Step 3</h2>
             <p>Instructions on how to execute this meditation exercise or on how to use this tool.</p>
+            <button type="button" id="startbtn">Start</button>
         </div>
     </div>
 
@@ -36,11 +46,17 @@
     </div>
     <div class="middle-body-img">
         <img src="./images/right-hand.webp" class="hand-img">
-        <img src="./images/crotch2.webp">
+        <img src="./images/crotch.webp">
         <img src="./images/left-hand.webp" class="hand-img">
     </div>
     <div class="lower-body-img">
         <img src="./images/feet.webp" class="feet-img">
     </div>
+
+    <script>
+        document.getElementById("startbtn").onclick = function() {
+            location.reload()
+        }
+    </script>
 </body>
 </html>
