@@ -49,7 +49,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   background-color: #e0e9fd;
   border-radius: 35px;
   box-shadow: 2px 2px 4px 3px #BDCAE7;
