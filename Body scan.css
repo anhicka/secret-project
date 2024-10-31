@@ -70,13 +70,13 @@ p {
 }
 
 .benefits {
-    background-color: #e0e9fd;
+    background-color: #B4BDFF;
     max-width: 960px;
     min-height: 185px;
     margin: 84px auto 64px;
     padding: 45px 70px 35px;
     border-radius: 35px;
-    box-shadow: 2px 2px 4px 2px #BDCAE7;
+    box-shadow: 2px 2px 4px 2px #a4adec;
 }
 
 .instructions {
