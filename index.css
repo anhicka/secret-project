@@ -69,11 +69,11 @@ p {
 }
 
 .benefits {
-    background-color: #B4BDFF;
+    background-color: #e0e9fd;
     max-width: 960px;
     min-height: 185px;
     margin: 84px auto 64px;
     padding: 45px 70px 35px;
     border-radius: 35px;
-    box-shadow: 2px 2px 4px 2px #98a1dd;
+    box-shadow: 2px 2px 4px 2px #BDCAE7;
 }
