@@ -27,7 +27,6 @@
     }
 
 }
-
 .secondbox{
     display: block;
     width: 725px;
@@ -45,14 +44,14 @@ img{
     height: 400px;
     width: 400px;
     align-self: flex-end;
-    padding-left: 150px;
+    padding-left: 100px;
     animation: slide 2s ease-in-out;
     
 }
 
 
 h1{
-    font-size: 45px;
+    font-size: 40px;
     animation: slide 2s ease-in-out;
 }
 
