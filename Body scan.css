@@ -9,26 +9,39 @@ body {
 }
 
 h1 {
-    font-size: 62px;
+    font-size: 50px;
     align-self: start;
+    font-weight: normal;
 }
 
 h2 {
     font-size: 26px;
     margin-bottom: 20px;
+    font-weight: normal;
+    font-style: italic;
 }
 
 h3 {
-    font-size: 24px;
-    margin: 16px 0;
+    font-size: 22px;
+    margin: 4px 0 16px;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 16px 0 4px;
+
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .subheading {
-    font-size: 26px;
+    font-size: 28px;
+    font-style: italic;
 }
 
 
@@ -36,12 +49,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #e0e9fd;
     border-radius: 35px;
     box-shadow: 2px 2px 4px 3px #BDCAE7;
     max-width: 1000px;
-    max-height: 560px;
-    margin: 80px auto 80px;
+    min-height: 500px;
+    margin: 72px auto 80px;
     padding: 50px;
     text-align: left;
 }
@@ -51,13 +65,13 @@ p {
 }
 
 .hero-img {
-    width: 400px;
+    max-width: 400px;
     justify-self: flex-end;
 }
 
 .benefits {
     background-color: #B4BDFF;
-    max-width: 950px;
+    max-width: 960px;
     min-height: 185px;
     margin: 84px auto 64px;
     padding: 45px 70px 35px;
@@ -69,6 +83,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     margin: 56px auto 72px;
     max-width: 1200px;
@@ -89,7 +104,7 @@ button {
     height: 40px;
     border: 0;
     border-radius: 20px;
-    background-color: #d5d9f5;
+    background-color: #ced2f6;
     box-shadow: 3px 3px 3px #A9B2F0;
     margin: 8px 0;
 }
