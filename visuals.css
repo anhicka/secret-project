@@ -1,11 +1,15 @@
 
-     
+     body{
+        background: linear-gradient(#e5eefe, #FFF8EC);
+        font-family: Inter, Arial, sans-serif;
+        font: #020523;
+     }
 
     .hero{
     display: flex;
     width: 725px;
     height: 400px;
-    background:#e2eafc;
+    background: #e0e9fd;;
     align-items: center;
     justify-content: center;
     padding-left: 150px;
@@ -16,6 +20,8 @@
     margin-top: 80px;
     box-shadow: 4px 4px 4px #BDCAE7;
     text-size-adjust: 100%;
+    animation: slide 2s ease-in-out;
+    
 
 }
 
@@ -29,6 +35,7 @@
     padding-right: 105px;
     border-radius: 35px;
     box-shadow: 4px 4px 4px #FFE3BB
+    
 }
 
 img{ 
@@ -36,21 +43,26 @@ img{
     width: 400px;
     align-self: flex-end;
     padding-left: 175px;
+    animation: slide 2s ease-in-out;
+    
 }
 
 
 h1{
     font-size: 70px
+    animation: slide 2s ease-in-out;
 }
 
 .benefitstext{
     text-align: center;
     padding-top: 50px;
+    animation: slide 2s ease-in-out;
     
 }
 .benefitsparagraph{
     text-align: center;
     padding-right: 50px;
+    animation: slide 2s ease-in-out;
 }
 
 
@@ -91,5 +103,16 @@ h1{
 
 
 .videoplayer{
-    
+    padding-left: 75px;
+    padding-top: 45px;
+}
+
+
+@keyframes slide {
+    0% {
+        transform:translatey(-1200px);
+    }
+    100% {
+        transform:translatey(00px);
+    }
 }
