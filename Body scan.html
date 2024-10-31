@@ -6,26 +6,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Body scan.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div class="benefits">
-    <h2>Benefits</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-</div>
+    <div id="hero">
+        <div class="hero-txt">
+            <h1>Your Body Knows The Score</h1>
+            <p class="subheading">Drop your shoulders and release the unknown load you're carrying.</p>
+        </div>
+        <div class="hero-img">
+            <img src="./images/body-scan.webp" class="hero-img" alt="An illustration of a person doing body scan">
+        </div>
+    </div>
+
+    <div class="benefits">
+        <h2>Bring Yourself Back to The Present Moment</h2>
+        <p><b>Are you dealing with stress, anxiety, racing thoughts, overwhelming emotions or inconsistent sleeping patterns?</b></p>
+        <p>The body scan mediation brings awareness to built up tension in the body, as physical stress can go unchecked. But, by reconsigning and addressing discomfort in your body with this mediation, you'll improve your sleep, lower stress levels and stimulate the parasympathetic nervous system, which will encourage relaxation and have your body feeling recharged.</p>
+        <p><em>Whether you're experienced or new to body scan, our helpful animation below will guide you to gradually bring awareness to each body part, starting from head to toes.</em><p>
+    </div>
 
     <div class="instructions">
         <div class="steps">
-            <h2>Step 1</h2>
-            <p>Instructions on how to execute this meditation exercise or on how to use this tool.</p>
+            <h4>Step 1:</h4>
+            <h3>Release Tension</h3>
+            <p>When the light on the animation below turns blue, identify and relax any tension in your muscles - perhaps furrowed brows, clenched jaw, tights shoulders and chest, or clenched fists and calves.</p>
         </div>
         <div class="steps">
-            <h2>Step 2</h2>
-            <p>Instructions on how to execute this meditation exercise or on how to use this tool.</p>
+            <h4>Step 2:</h4>
+            <h3>Embrace Sensations</h3>
+            <p>As the light turns purple, notice any sensations in your body without judgment or a need to change them. This could be tingling, pulsing, warmth, coolness, heaviness or even the rhythm of your heartbeat.</p>
         </div>
         <div class="steps">
-            <h2>Step 3</h2>
-            <p>Instructions on how to execute this meditation exercise or on how to use this tool.</p>
+            <h4>Step 3:</h4>
+            <h3>Follow Your Breath</h3>
+            <p>When you're ready, find a comfortable position. Start breathing slowly and deeply, allowing the warmth of each breath to fill your body.</p>
+            <button type="button" id="startbtn">Start</button>
         </div>
     </div>
 
@@ -36,11 +55,17 @@
     </div>
     <div class="middle-body-img">
         <img src="./images/right-hand.webp" class="hand-img">
-        <img src="./images/crotch2.webp">
+        <img src="./images/crotch.webp">
         <img src="./images/left-hand.webp" class="hand-img">
     </div>
     <div class="lower-body-img">
         <img src="./images/feet.webp" class="feet-img">
     </div>
+
+    <script>
+        document.getElementById("startbtn").onclick = function() {
+            location.reload()
+        }
+    </script>
 </body>
 </html>
