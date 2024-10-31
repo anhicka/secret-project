@@ -1,0 +1,121 @@
+
+     body{
+        background: linear-gradient(#e5eefe, #FFF8EC);
+        font-family: Inter, Arial, sans-serif;
+        font: #020523;
+     }
+
+    .hero{
+    display: flex;
+    width: 725px;
+    height: 400px;
+    background: #e0e9fd;;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 105px;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    box-shadow: 4px 4px 4px #BDCAE7;
+    text-size-adjust: 100%;
+    animation: slide 2s ease-in-out;
+    
+    .subheadinghero {
+        font-size: 18px;
+    }
+
+}
+
+.secondbox{
+    display: block;
+    width: 725px;
+    height: 200px;
+    background-color: #FFE3BB;
+    margin: 75px auto;
+    padding-left: 150px;
+    padding-right: 105px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #FFE3BB
+    
+}
+
+img{ 
+    height: 400px;
+    width: 400px;
+    align-self: flex-end;
+    padding-left: 150px;
+    animation: slide 2s ease-in-out;
+    
+}
+
+
+h1{
+    font-size: 45px;
+    animation: slide 2s ease-in-out;
+}
+
+.benefitstext{
+    text-align: center;
+    padding-top: 50px;
+    animation: slide 2s ease-in-out;
+    
+}
+.benefitsparagraph{
+    text-align: center;
+    padding-right: 50px;
+    animation: slide 2s ease-in-out;
+}
+
+
+
+
+.instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    text-align: center;
+    margin: 75px;
+    width: auto;
+    height:auto;
+}
+
+.steps {
+    width: 200px;
+    min-height: 200px;
+    padding: 40px;
+    background-color: #E2EAFC;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #BDCAE7;
+}
+
+.videobox{
+    display: block;
+    width: 725px;
+    height: 400px;
+    background-color: #FFE3BB;
+    margin: 75px auto;
+    padding-left: 150px;
+    padding-right: 105px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px #FFE3BB
+
+}
+
+
+.videoplayer{
+    padding-left: 75px;
+    padding-top: 45px;
+}
+
+
+@keyframes slide {
+    0% {
+        transform:translatey(-1200px);
+    }
+    100% {
+        transform:translatey(00px);
+    }
+}
