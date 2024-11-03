@@ -95,7 +95,7 @@ h4 {
     border-radius: 15px;
     background-color: #DFCCFB;
     box-shadow: 4px 4px 4px #D3BEF1;
-    animation: float 2.25s ease-in-out infinite alternate;
+    animation: float 2.5s ease-in-out infinite alternate;
 }
  
 .box2 {
@@ -106,7 +106,7 @@ h4 {
     background-color: #B4BDFF;
     margin-left: 20px;
     box-shadow: 4px 4px 4px #A9B2F0;
-    animation: float 2.25s ease-in-out infinite alternate;
+    animation: float 2.5s ease-in-out infinite alternate;
     animation-delay: 0.5s;
  
 }
@@ -119,7 +119,7 @@ h4 {
     background-color: #FFE3BB;
     margin-left: 20px;
     box-shadow: 4px 4px 4px #F3D7B0;
-    animation: float 2.25s ease-in-out infinite alternate;
+    animation: float 2.5s ease-in-out infinite alternate;
     animation-delay: 1s;
 }
  
@@ -176,7 +176,7 @@ button:hover {
 }
 button:active {
     transform: translateY(1px);
-    box-shadow: 2px 2px 2px #A9B2F0;
+    box-shadow: 2px 2px 2px #9e9fa9;
 }
 
 a {
