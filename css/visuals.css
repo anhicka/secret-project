@@ -24,6 +24,7 @@
     
     .subheadinghero {
         font-size: 18px;
+        font-style: italic;
     }
 
 }
@@ -44,27 +45,44 @@ img{
     height: 400px;
     width: 400px;
     align-self: flex-end;
-    padding-left: 100px;
+    padding-left: 30px;
     animation: slide 2s ease-in-out;
     
 }
 
 
 h1{
-    font-size: 40px;
+    font-size: 50px;
     animation: slide 2s ease-in-out;
+    font-weight: normal;
+}
+h4{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
 }
 
+h3{
+    font-size: 22px;
+    margin: 4px 0 16px;
+    font-weight: normal;
+    font-style: italic;
+}
+h2{
+    font-style: italic;
+}
 .benefitstext{
     text-align: center;
     padding-top: 50px;
     animation: slide 2s ease-in-out;
+    font-weight: normal;
     
 }
 .benefitsparagraph{
     text-align: center;
     padding-right: 50px;
     animation: slide 2s ease-in-out;
+    font-weight: normal;
 }
 
 
@@ -79,6 +97,8 @@ h1{
     margin: 75px;
     width: auto;
     height:auto;
+    font-weight: normal;
+
 }
 
 .steps {
@@ -88,6 +108,7 @@ h1{
     background-color: #E2EAFC;
     border-radius: 35px;
     box-shadow: 4px 4px 4px #BDCAE7;
+    font-weight: normal;
 }
 
 .videobox{
